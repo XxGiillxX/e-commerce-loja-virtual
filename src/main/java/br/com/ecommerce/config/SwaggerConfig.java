@@ -21,7 +21,7 @@ public class SwaggerConfig {
 		return new Docket(DocumentationType.SWAGGER_2)
 			.select()
 			.apis( RequestHandlerSelectors.basePackage
-			("br.com.helpconnect.LojaVirtual.controller") )
+			("br.com.ecommerce.controller") )
 			.paths(PathSelectors.any())
 			.build()
 			.apiInfo(apiInfo());	
@@ -39,8 +39,8 @@ public class SwaggerConfig {
 	}
 	
 	private Contact contact() {
-		return new Contact("Kevin Alec Neri Lazzarotto",
-			"https://github.com/Clamant96",
+		return new Contact("Gilberto Silva de Macena Filho",
+			"https://github.com/XxGiillxX",
 			"Estudante em ADS | Desenvolvedor Web Java Junior Full Stack");
 		
 	}
